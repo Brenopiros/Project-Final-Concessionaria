@@ -467,6 +467,64 @@ section div.background-section {
 
 /* fim dos lançamentos */
 
+/* Propaganda */
+.propaganda{
+    width: 100%;
+    height: 80vh;
+}
+
+.propaganda-celular{
+    display: flex;
+}
+
+.colun-banner-cel1 {
+    width: 45%;
+    height: 80hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: red solid; */
+}
+
+
+.colun-banner-cel1 img{
+    width: 70%; 
+    border-radius: 5%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px var(--main-color);
+    /* border: red solid; */
+}
+
+.colun-banner-cel2{
+    width: 55%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: blue solid;   */
+} 
+.text-banner{
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+    height: 50vh;
+    align-self: center;
+    /* border: red solid; */
+  }
+  
+  .text-banner h1{
+    font-family: var(--title-font);
+    font-size: 45px;
+    font-weight: 300;
+  }
+  
+  .text-banner p{
+    font-family: var(--principal-font);
+    font-size: 20px;
+    margin:20px 0px ;
+  }
+/* Fim da propaganda */
+
 /*Footer*/
 
 footer {
